@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 
+# bin_to_num: Converts a binned income category column (binnedInc) into numerical codes.
+# cat_to_col: Converts all categorical columns to numerical codes.
+# one_hot_encoding (repeated, same as in data_processing) – probably a redundancy to clean up.
 def bin_to_num(df):
     """Convert binned income categories to numerical values"""
     # Using the correct column name 'binnedInc'
